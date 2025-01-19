@@ -1,4 +1,4 @@
-import camera from "../assets/camera.png";
+import camera from "../../public/assets/camera.png";
 
 export const HeroBlock = () => {
   return (
@@ -18,7 +18,7 @@ export const HeroBlock = () => {
           </span>
         </div>
         <div className="bg-accent text-white grow rounded-20 flex flex-col justify-between gap-5 p-5">
-          <h1 className="text-4xl font-semibold font-roboto">Техно Плюс</h1>
+          <h1 className="text-5xl font-semibold font-roboto">Техно Плюс</h1>
           <p className="text-lg font-normal font-inter">
             <b>Ваше доверие — наш главный приоритет</b>
             <br />
@@ -36,7 +36,7 @@ export const HeroBlock = () => {
       <div className="picture grow w-full h-96 lg:h-auto md:mx-auto lg:w-full xl:w-3/4 2xl:w-2/5 2k:w-1/5">
         <img
           src={camera}
-          alt=""
+          alt="Камера"
           className="object-cover object-center rounded-20 w-full h-full"
         />
       </div>

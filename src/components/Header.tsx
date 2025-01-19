@@ -1,5 +1,5 @@
 import { Navigation } from "./Navigation";
-import logo from "../assets/logo.png";
+import logo from "../../public/assets/logo.png";
 import { useState } from "react";
 
 export const Header = () => {
@@ -15,7 +15,7 @@ export const Header = () => {
         <img src={logo} alt="Техно Плюс" className="h-full" />
       </div>
       <div className="pc-menu mr-4 hidden md:block">
-        <Navigation></Navigation>
+        <Navigation address={true}></Navigation>
       </div>
       <div className="mobile-menu mr-4 md:hidden">
         <button
@@ -29,7 +29,7 @@ export const Header = () => {
             isMobileMenuActive && "h-36"
           }`}
         >
-          <Navigation></Navigation>
+          <Navigation address={true}></Navigation>
         </div>
       </div>
     </header>
