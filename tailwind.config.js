@@ -6,9 +6,14 @@ export default {
       fontFamily: {
         inter: '"Inter", serif',
         rubik: '"Rubik", serif',
+        roboto: '"Roboto", serif',
       },
       borderRadius: {
         20: "20px",
+        32: "32px",
+      },
+      screens: {
+        "2k": "2000px",
       },
     },
     colors: {
@@ -17,6 +22,7 @@ export default {
       accent: "rgba(30, 30, 30, 0.94)",
       black: "rgba(0, 0, 0, 1)",
       white: "rgba(255, 255, 255, 1)",
+      grey: "rgba(107, 107, 107, 1)",
     },
   },
   plugins: [],

@@ -12,6 +12,11 @@
   src: url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
 }
 
+@font-face {
+  font-family: "Roboto", serif;
+  src: url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+}
+
 html,
 body {
   @apply bg-secondary-light w-full overflow-x-hidden min-h-full h-full;
@@ -24,4 +29,12 @@ body {
 
 .nav-button {
   @apply py-1 px-3.5 rounded-20 bg-secondary-light hover:bg-secondary-dark transition-all text-black hover:text-white font-inter text-base;
+}
+
+.badge {
+  @apply bg-secondary-dark text-white text-[15px] leading-[18px] py-[5px] px-2.5 rounded-32 w-fit;
+}
+
+.advantages-card {
+  @apply bg-accent flex justify-between text-white rounded-20 p-5 aspect-video;
 }
