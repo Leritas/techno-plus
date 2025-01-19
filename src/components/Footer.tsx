@@ -5,7 +5,7 @@ export const Footer = () => {
   return (
     <footer
       id="contacts"
-      className="mt-10 lg:mt-20 bg-white rounded-20 p-5 flex flex-col gap-16"
+      className="mt-10 lg:mt-20 bg-white rounded-20 p-5 2xl:p-8 flex flex-col gap-16"
     >
       <div className="nav-footer flex justify-between items-start">
         <div className="logo">

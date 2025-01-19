@@ -2,7 +2,10 @@ import cond from "../../public/assets/cond.png";
 
 export const Services = () => {
   return (
-    <section id="services" className="bg-white rounded-20 mt-12 lg:mt-24 p-5">
+    <section
+      id="services"
+      className="bg-white rounded-20 mt-12 lg:mt-24 p-5 2xl:p-8"
+    >
       <div className="services-title mb-12 lg:mb-20">
         <h2 className="">УСЛУГИ</h2>
         <h3 className="h2">Техно Плюс</h3>

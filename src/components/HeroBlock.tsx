@@ -4,7 +4,7 @@ export const HeroBlock = () => {
   return (
     <section className="flex flex-col lg:flex-row gap-5 xl:gap-10 w-full">
       <div className="hero flex flex-col gap-5 xl:gap-10">
-        <div className="bg-white grow rounded-20 flex flex-col justify-between gap-5 p-5">
+        <div className="bg-white grow rounded-20 flex flex-col justify-between gap-5 p-5 2xl:p-8">
           <div className="flex gap-2">
             <span className="badge">Кондиционеры</span>
             <span className="badge">Видеонаблюдение</span>
@@ -17,7 +17,7 @@ export const HeroBlock = () => {
             Понятным языком объясняем технические термины
           </span>
         </div>
-        <div className="bg-accent text-white grow rounded-20 flex flex-col justify-between gap-5 p-5">
+        <div className="bg-accent text-white grow rounded-20 flex flex-col justify-between gap-5 p-5 2xl:p-8">
           <h1 className="text-5xl font-semibold font-roboto">Техно Плюс</h1>
           <p className="text-lg font-normal font-inter">
             <b>Ваше доверие — наш главный приоритет</b>

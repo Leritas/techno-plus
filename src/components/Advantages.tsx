@@ -3,7 +3,7 @@ import { FourCircles } from "./FourCircles";
 export const Advantages = () => {
   return (
     <section className="mt-12 lg:mt-24 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5 md:gap-10 lg:grid-rows-2 md:grid-rows-2">
-      <div className="bg-white md:row-span-2 rounded-20 p-5 flex flex-col">
+      <div className="bg-white md:row-span-2 rounded-20 p-5 2xl:p-8 flex flex-col">
         <span className="badge">Преимущества</span>
         <h2 className="mt-12 mb-10">ПОЧЕМУ НАС ВЫБИРАЮТ?</h2>
         <p className="text-base font-inter">

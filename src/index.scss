@@ -36,11 +36,11 @@ body {
 }
 
 .advantages-card {
-  @apply bg-accent flex flex-col justify-between text-white rounded-20 p-5 aspect-video xl:aspect-square 2xl:aspect-video font-inter gap-5;
+  @apply bg-accent flex flex-col justify-between text-white rounded-20 p-5 2xl:p-8 aspect-video xl:aspect-square 2xl:aspect-video font-inter gap-5;
 }
 
 .services-card {
-  @apply bg-accent rounded-20 p-5 gap-5 flex flex-col justify-between text-white grow;
+  @apply bg-accent rounded-20 p-5 2xl:p-8 gap-5 flex flex-col justify-between text-white grow;
 
   h3 {
     @apply text-2xl font-roboto font-semibold;
